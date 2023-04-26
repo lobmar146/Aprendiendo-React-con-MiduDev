@@ -35,9 +35,10 @@
     font-family: system-ui;
     font-weight: 700;
     padding: 3px 13px 3px 13px;
+    transition: .5s ease background-color;
     };
 
-.tw-followCard-button.isfollowing{
+.tw-followCard-button.is-following {
     border:  1px solid red;
     background-color: #09f ;
     };
@@ -47,5 +48,5 @@
 .tw-followCard-button:hover{
     background-color: #09f ;
     color: white;
-    transition: .5s ease background-color;
+    
     };
